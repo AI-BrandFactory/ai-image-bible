@@ -1,0 +1,26 @@
+{
+  "slug": "ai-image-bible",
+  "title": "The AI Image Bible",
+  "fileLabel": "AI Image Bible",
+  "hook": "As of April 25, 2026 three models lead AI image generation: OpenAI's gpt-image-2, Midjourney V8.1 Alpha, and Google's Gemini 3 Pro Image (Nano Banana Pro). Each has its own prompt grammar, its own payload structure, its own pricing, and its own category of strengths. This is the one reference that covers all three properly: API payloads, parameter syntax, JSON prompting, character consistency patterns, the interleaved payload technique, pricing at every tier, example outputs from each model, and the complete companion repo of prompts and payload templates.",
+  "benefits": [
+    "Full reference for all three 2026 flagship models: gpt-image-2 (OpenAI, April 2026), Midjourney V8.1 Alpha (April 2026), Gemini 3 Pro Image / Nano Banana Pro (Google, Nov 2025 to April 2026). With capabilities, pricing, and decision criteria for each.",
+    "Complete API payloads: OpenAI Images endpoint for gpt-image-2 with all parameters; Gemini generateContent payload with interleaved reference images; Midjourney parameter reference (--ar --oref --sref --stylize and the rest).",
+    "JSON prompting for Gemini 3: the structured prompt pattern that raises accuracy 60 to 80 percent on multi-constraint tasks, with complete schemas for subjects, styles, compositions, and text overlays.",
+    "The Interleaved Payload Pattern: the [Image][Context][Image][Context][Prompt] structure, proven across 280+ tests, for character consistency across multi-image series.",
+    "Character consistency in all three models: Midjourney Omni Reference, Gemini multi-image fusion (up to 14 refs), GPT Image 2 multi-image batch generation (up to 10). The hex-code system for brand palette consistency.",
+    "The companion git repo: organized prompts and payload templates for each model, the Python reference implementations, the JSON schemas. Clone, configure keys, start generating."
+  ],
+  "squeezeBullets": [
+    "Full reference for all three 2026 flagship models: gpt-image-2, Midjourney V8.1 Alpha, Gemini 3 Pro Image",
+    "Complete API payloads for OpenAI Images, Gemini generateContent with reference images, Midjourney parameters",
+    "JSON prompting for Gemini 3: structured pattern that raises accuracy 60 to 80 percent on multi-constraint tasks"
+  ],
+  "description": "Three months into 2026, the image generation landscape looks nothing like it did in late 2024. OpenAI shipped gpt-image-2 on April 21, 2026 with native reasoning, multilingual text rendering, and 10-image consistency batches. Midjourney shipped V8.1 Alpha on April 14, 2026 with native 2K output, Omni Reference for character consistency, and the V1 Video model extended to 20-second clips. Google is now flying Gemini 3 Pro Image (Nano Banana Pro) as the flagship, with the Nano Banana 2 Flash tier as the speed option and Imagen 4 Ultra still available for pure photorealism until June 24, 2026.\n\nEach of the three models has a distinct prompt grammar. gpt-image-2 rewards verbose structured English with explicit intended-use declarations. Midjourney rewards short evocative phrasing plus parameter flags. Gemini rewards conversational instructions and JSON-structured prompts for complex briefs. Using one model's prompt patterns on another produces mediocre results in every direction.\n\nThis Bible covers all three properly. For each model: exact API payload shapes, parameter syntax, prompt patterns, pricing at every tier, known limitations, example outputs. Across all three: the interleaved payload pattern for character consistency, the hex-code system for brand palette consistency, production workflows that scale, the 8 mistakes that kill image quality at scale. Plus a companion git repository with organized prompt and payload templates for every model.\n\nEight parts:\n\nPart 1, The 2026 Model Landscape (capabilities matrix, decision criteria).\n\nPart 2, Prompting Fundamentals Across All Models.\n\nPart 3, Gemini 3 Pro Image / Nano Banana Pro Full Breakdown.\n\nPart 4, Midjourney V8.1 Full Breakdown.\n\nPart 5, OpenAI gpt-image-2 Full Breakdown.\n\nPart 6, Character Consistency: The Interleaved Payload Pattern, Omni Reference, Hex-Code System.\n\nPart 7, Production Workflows: Batch, Brand Consistency, Cost Management.\n\nPart 8, Validation and the 8 Common Mistakes.\n\nIncluded as a printable PDF, a duplicatable Notion template, and a companion GitHub repository with prompt and payload templates.",
+  "emailSubject": "Your AI Image Bible is ready",
+  "githubUrl": "https://github.com/AI-BrandFactory/ai-image-bible",
+  "notionUrl": "https://massiveimpact.notion.site/The-AI-Image-Bible-34cfb27e663481869807cd0a96baf6c4",
+  "notionIcon": "📷",
+  "isPublished": true,
+  "githubRepo": "ai-image-bible"
+}
